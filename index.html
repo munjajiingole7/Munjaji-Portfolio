@@ -127,6 +127,14 @@
     border:1px dashed rgba(94,230,176,0.4);
     animation:spin 18s linear infinite;
   }
+  .avatar-img{
+    width:200px; height:200px; border-radius:50%;
+    object-fit:cover;
+    border:4px solid var(--accent);
+    box-shadow:0 20px 60px rgba(94,230,176,0.18);
+    position:relative;
+    display:block;
+  }
   @keyframes spin{to{transform:rotate(360deg);}}
   .hero-stats{display:flex; gap:22px;}
   .stat{
@@ -261,6 +269,13 @@
     display:flex; align-items:center; justify-content:center;
     font-size:2.4rem; font-weight:800; color:#06120d; margin:0 auto 20px;
   }
+  .avail-card .avatar-small-img{
+    width:120px; height:120px; border-radius:50%;
+    object-fit:cover;
+    border:3px solid var(--accent);
+    margin:0 auto 20px;
+    display:block;
+  }
   .avail-card h3{font-size:1.2rem; font-weight:800; margin-bottom:8px;}
   .avail-card p{color:var(--muted); font-size:.92rem;}
 
@@ -293,6 +308,7 @@
     .skills-grid, .projects-grid, .edu-grid, .cert-list, .contact-grid{grid-template-columns:1fr;}
     .nav-links{display:none;}
     .hero h1{font-size:2.3rem;}
+    .hero-visual .avatar, .hero-visual .avatar-img{margin:0 auto;}
   }
 </style>
 </head>
@@ -314,8 +330,8 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="nav-social">
-      <a href="https://github.com/" target="_blank" title="GitHub">🐙</a>
-      <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn">💼</a>
+      <a href="https://github.com/munjajiingole7" target="_blank" title="GitHub">🐙</a>
+      <a href="https://www.linkedin.com/in/munjaji-ingole-4469a821b" target="_blank" title="LinkedIn">💼</a>
     </div>
   </nav>
 </header>
@@ -465,7 +481,7 @@
       <h3>Generative AI Chatbot</h3>
       <p>Conversational chatbot built using LangChain and LLaMA 2 (70B) on AWS Bedrock, with a Streamlit interface for interactive Q&amp;A and document-aware responses.</p>
       <div class="proj-tags"><span>LangChain</span><span>LLaMA 2 (70B)</span><span>AWS Bedrock</span><span>Streamlit</span></div>
-      <a href="https://github.com/" target="_blank" class="proj-link">View on GitHub →</a>
+      <a href="https://github.com/munjajiingole7" target="_blank" class="proj-link">View on GitHub →</a>
     </div>
 
     <div class="proj-card reveal">
@@ -473,7 +489,7 @@
       <h3>Churn Modelling</h3>
       <p>End-to-end churn prediction pipeline with exploratory data analysis, feature engineering, and a Random Forest classifier, surfaced through Power BI dashboards for business stakeholders.</p>
       <div class="proj-tags"><span>Python</span><span>Random Forest</span><span>EDA</span><span>Power BI</span></div>
-      <a href="https://github.com/" target="_blank" class="proj-link">View on GitHub →</a>
+      <a href="https://github.com/munjajiingole7" target="_blank" class="proj-link">View on GitHub →</a>
     </div>
 
     <div class="proj-card reveal">
@@ -481,7 +497,7 @@
       <h3>Crop Yield Prediction</h3>
       <p>Built a Random Forest Regressor on real agricultural data, covering end-to-end EDA, feature engineering, and hyperparameter tuning to forecast crop yield from environmental and farmer-specific variables.</p>
       <div class="proj-tags"><span>Python</span><span>Random Forest</span><span>Scikit-learn</span><span>EDA</span></div>
-      <a href="https://github.com/" target="_blank" class="proj-link">View on GitHub →</a>
+      <a href="https://github.com/munjajiingole7" target="_blank" class="proj-link">View on GitHub →</a>
     </div>
 
     <div class="proj-card reveal">
@@ -489,7 +505,7 @@
       <h3>Marketing ETL &amp; Reporting Pipeline</h3>
       <p>Python-based ETL pipelines integrating CRM, Meta Ads, and Google Ads data into a centralised SQL database, powering 35+ auto-refresh Power BI dashboards tracking CTR, ROAS, and CPL.</p>
       <div class="proj-tags"><span>Python</span><span>SQL</span><span>Power BI</span><span>DAX</span></div>
-      <a href="https://github.com/" target="_blank" class="proj-link">View on GitHub →</a>
+      <a href="https://github.com/munjajiingole7" target="_blank" class="proj-link">View on GitHub →</a>
     </div>
 
     <div class="proj-card reveal">
@@ -497,7 +513,7 @@
       <h3>Task Tracker Web App</h3>
       <p>A task ticketing web application built from scratch using Prompt Engineering, enabling teams to create, assign, and track tasks collaboratively.</p>
       <div class="proj-tags"><span>Prompt Engineering</span><span>Web App</span></div>
-      <a href="https://github.com/" target="_blank" class="proj-link">View on GitHub →</a>
+      <a href="https://github.com/munjajiingole7" target="_blank" class="proj-link">View on GitHub →</a>
     </div>
 
     <div class="proj-card reveal">
@@ -505,11 +521,11 @@
       <h3>Creative Hub</h3>
       <p>A unified platform connecting creative, PPC, and client teams — streamlining creative approvals and inter-team communication across campaigns.</p>
       <div class="proj-tags"><span>Workflow Automation</span><span>Collaboration</span></div>
-      <a href="https://github.com/" target="_blank" class="proj-link">View on GitHub →</a>
+      <a href="https://github.com/munjajiingole7" target="_blank" class="proj-link">View on GitHub →</a>
     </div>
   </div>
   <div style="text-align:center; margin-top:40px;">
-    <a href="https://github.com/" target="_blank" class="btn btn-outline">View All Projects on GitHub 🐙</a>
+    <a href="https://github.com/munjajiingole7" target="_blank" class="btn btn-outline">View All Projects on GitHub 🐙</a>
   </div>
 </section>
 
@@ -570,20 +586,20 @@
         <div class="contact-icon">🐙</div>
         <div>
           <h4>GitHub</h4>
-          <a href="https://github.com/" target="_blank">github.com/your-username</a>
+          <a href="https://github.com/munjajiingole7" target="_blank">github.com/munjajiingole7</a>
         </div>
       </div>
       <div class="contact-item">
         <div class="contact-icon">💼</div>
         <div>
           <h4>LinkedIn</h4>
-          <a href="https://www.linkedin.com/" target="_blank">linkedin.com/in/your-profile</a>
+          <a href="https://www.linkedin.com/in/munjaji-ingole-4469a821b" target="_blank">linkedin.com/in/munjaji-ingole</a>
         </div>
       </div>
     </div>
 
     <div class="avail-card reveal">
-      <div class="avatar-small">MI</div>
+      <img src="saurabh_A_stylized.png" alt="Munjaji Ingole" class="avatar-small-img" />
       <h3>Munjaji Ingole</h3>
       <p style="margin-bottom:18px;">Data Analyst &amp; Power BI Developer</p>
       <p><strong style="color:var(--accent);">Availability:</strong><br/>Open to Data Analyst, BI Developer &amp; Data Science roles</p>
@@ -594,8 +610,8 @@
 <footer>
   <div>Crafted with ♥ by Munjaji Ingole · Pune, India · 2026</div>
   <div class="f-links">
-    <a href="https://github.com/" target="_blank">🐙 GitHub</a>
-    <a href="https://www.linkedin.com/" target="_blank">💼 LinkedIn</a>
+    <a href="https://github.com/munjajiingole7" target="_blank">🐙 GitHub</a>
+    <a href="https://www.linkedin.com/in/munjaji-ingole-4469a821b" target="_blank">💼 LinkedIn</a>
     <a href="mailto:munjajiingole07@gmail.com">📧 Email</a>
   </div>
 </footer>
